@@ -144,5 +144,5 @@ def main(folder_path):
                 #     add_exif_date_taken(image_path, date_taken.strftime('%Y:%m:%d %H:%M:%S'))
 
 if __name__ == "__main__":
-    folder_path = input("请输入照片文件夹路径: ")
+    folder_path = input("请输入文件夹路径: ")
     main(folder_path)
