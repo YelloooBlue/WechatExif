@@ -1,6 +1,10 @@
 # WechatExif
 Fill in the exif information based on the WeChat camera file name
 
+## Timestamp
+- 13位（毫秒级）
+- 这个Timestamp为保存该照片的时间，非照片实际拍摄时间
+- 如果是保存原图，文件本身可能会有exif时间，会小于等于这个Timestamp
 
 ## Example
 ### 微信保存
@@ -16,7 +20,7 @@ Fill in the exif information based on the WeChat camera file name
 - `mmexporteb7b2a858123a721c3c4bc5636c90756_1660142644280.jpeg`
 - `mmexport4d931b739159e49b4998a52d0d951c32_1652692638797.png`
 - `mmexport880789df193ec7be33fa89e2ba448626_1620307573963.webp`
-- `mmexport21feb0c131484184e411a6a424281f18_1652358827779.gif`  GIF都是这种
+- `mmexport21feb0c131484184e411a6a424281f18_1652358827779.gif`
 - `thumbmmexport1654638712513.jpg`
 
 ### 微信相机
